@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Aprende Código ASCII Jugando!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>¡Aprende Código ASCII Jugando!</h1>
+    </header>
+    <main>
+        <section id="adivina-letra">
+            <h2>Adivina la Letra</h2>
+            <p>¿Qué letra representa este código ASCII?</p>
+            <div id="codigo-ascii"></div>
+            <div id="opciones"></div>
+            <p id="respuesta-adivina"></p>
+        </section>
+
+        <section id="escribe-ascii">
+            <h2>Escribe con ASCII</h2>
+            <p>Escribe el código ASCII para cada letra de la palabra:</p>
+            <div id="palabra-escribir"></div>
+            <div id="inputs-ascii"></div>
+            <button id="verificar-escritura">Verificar</button>
+            <p id="respuesta-escribe"></p>
+        </section>
+
+        <section id="mensaje-secreto">
+            <h2>El Mensaje Secreto</h2>
+            <p>Descifra este mensaje secreto en código ASCII:</p>
+            <div id="mensaje-codificado"></div>
+            <textarea id="mensaje-descifrado" placeholder="Escribe aquí el mensaje"></textarea>
+            <button id="decodificar">Decodificar</button>
+            <p id="respuesta-secreto"></p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 Aprendiendo Código ASCII</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
